@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
-import { IMutator, IMutatorMap } from 'contracts'
+import { IMutator, IMutatorMap } from './contracts'
 import { reduceWith } from './reduceWith'
 
 enum MockCounterActions {

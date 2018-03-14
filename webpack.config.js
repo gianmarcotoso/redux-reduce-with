@@ -12,9 +12,9 @@ module.exports = {
 	},
 	target: 'node',
 	output: {
-		filename: '[name].js',
+		filename: 'index.js',
 		path: path.join(__dirname, 'dist'),
-		publicPath: '/',
+
 		library: 'redux-reduce-with',
 		libraryTarget: 'umd'
 	},

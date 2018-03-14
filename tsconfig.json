@@ -1,20 +1,9 @@
 {
 	"compilerOptions": {
-		"target": "es6",
-		"module": "commonjs",
-		"lib": ["dom", "es2015"],
-
-		/* Strict Type-Checking Options */
-		"strict": true,
-		"noImplicitAny": true,
-		"strictNullChecks": true,
-		"strictFunctionTypes": true,
-		"strictPropertyInitialization": true,
-		"noImplicitThis": true,
-		"alwaysStrict": true,
-
-		"moduleResolution": "node",
-		"baseUrl": "./src",
-		"esModuleInterop": false
+		"target": "es2016",
+		"module": "es2015",
+		"declaration": true,
+		"declarationDir": ".",
+		"moduleResolution": "node"
 	}
 }

@@ -1,4 +1,7 @@
-# reduce-with
+[![Build Status](https://travis-ci.org/gianmarcotoso/redux-reduce-with.svg?branch=master)](https://travis-ci.org/gianmarcotoso/redux-reduce-with)
+[![npm version](https://badge.fury.io/js/redux-reduce-with.svg)](https://badge.fury.io/js/redux-reduce-with)
+
+# redux-reduce-with
 
 A small library to write Redux reducers as objects instead of using switch statements.
 
