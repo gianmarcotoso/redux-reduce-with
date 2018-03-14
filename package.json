@@ -1,0 +1,33 @@
+{
+	"name": "redux-reduce-with",
+	"version": "0.1.0",
+	"description": "Write reducers as objects",
+	"main": "dist/index.js",
+	"author": "Gian Marco Toso <info@gianmarcotoso.com>",
+	"license": "MIT",
+	"jest": {
+		"transform": {
+			"^.+\\.tsx?$": "ts-jest"
+		},
+		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+		"moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+	},
+	"scripts": {
+		"test": "jest",
+		"build": "NODE_ENV=production webpack --progress -p --colors"
+	},
+	"devDependencies": {
+		"@types/jest": "^22.2.0",
+		"@types/webpack": "^4.1.0",
+		"jest": "^22.4.2",
+		"redux": "^3.7.2",
+		"ts-jest": "^22.4.1",
+		"ts-loader": "^4.0.1",
+		"typescript": "^2.7.2",
+		"webpack": "^4.1.1",
+		"webpack-cli": "^2.0.11"
+	},
+	"peerDependencies": {
+		"redux": "^3.7.2"
+	}
+}
