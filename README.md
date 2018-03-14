@@ -6,6 +6,10 @@ A small library to write Redux reducers as objects instead of using switch state
 
 I don't like switch statements!
 
+## Installation
+
+`npm install redux-reduce-with --save`
+
 ## How does it work?
 
 To write a reducer with `redux-reduce-with` you simply define an object where the keys are your
