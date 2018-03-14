@@ -3,6 +3,7 @@
 	"version": "0.1.1",
 	"description": "Write reducers as objects",
 	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"author": "Gian Marco Toso <info@gianmarcotoso.com>",
 	"license": "MIT",
 	"jest": {
@@ -10,14 +11,7 @@
 			"^.+\\.tsx?$": "ts-jest"
 		},
 		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-		"moduleFileExtensions": [
-			"ts",
-			"tsx",
-			"js",
-			"jsx",
-			"json",
-			"node"
-		]
+		"moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
 	},
 	"scripts": {
 		"test": "jest",
