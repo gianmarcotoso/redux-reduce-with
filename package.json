@@ -1,6 +1,6 @@
 {
 	"name": "redux-reduce-with",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Write reducers as objects",
 	"main": "dist/index.js",
 	"author": "Gian Marco Toso <info@gianmarcotoso.com>",
@@ -10,7 +10,14 @@
 			"^.+\\.tsx?$": "ts-jest"
 		},
 		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-		"moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"jsx",
+			"json",
+			"node"
+		]
 	},
 	"scripts": {
 		"test": "jest",
