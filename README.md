@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/gianmarcotoso/redux-reduce-with.svg?branch=master)](https://travis-ci.org/gianmarcotoso/redux-reduce-with)
 [![npm version](https://badge.fury.io/js/redux-reduce-with.svg)](https://badge.fury.io/js/redux-reduce-with)
+[![CryptoTip](https://img.shields.io/badge/Donate%20with-CryptoTip-blue.svg?style=flat&colorB=007bff)](https://cryptotip.it/p/gianmarcotoso)
 
 # redux-reduce-with
 
