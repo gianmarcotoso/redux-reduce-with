@@ -29,7 +29,7 @@ compute anything.
 
 A simple example:
 
-```
+```javascript
 // We import the library
 import { reduceWith } from 'redux-reduce-with'
 
